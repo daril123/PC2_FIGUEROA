@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "457037944849",
+    "project_id": "pc2-figueroa",
+    "storage_bucket": "pc2-figueroa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457037944849:android:f81de96befca0bdc3979b0",
+        "android_client_info": {
+          "package_name": "com.example.pc2_figueroa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457037944849-jgn6gfh2l7vhehafa94jeclvt8remus8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC26vKKJqci4QP3liuppuUAIo4Mb2v0pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457037944849-jgn6gfh2l7vhehafa94jeclvt8remus8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

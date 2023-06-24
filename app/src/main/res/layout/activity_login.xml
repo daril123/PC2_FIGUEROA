@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Inicio de sesion"
+        android:textStyle="bold"
+
+        >
+
+
+    </TextView>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/ic_baseline_verified_user_24"
+        />
+
+
+
+    <EditText
+        android:id="@+id/editTextDni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DNI"
+        android:inputType="number"
+        android:maxLength="8"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/editTextClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Clave"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/buttonIniciarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Iniciar Sesión" />
+    <Button
+        android:id="@+id/buttonCrearCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Crear una cuenta" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:layout_gravity="center"
+
+    android:orientation="vertical"
+
+    android:padding="16dp"
+    tools:context=".RegistroActivity">
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+
+        android:text="Registro de cuenta"
+        android:textStyle="bold"
+
+        >
+
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/editTextDni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+
+        android:hint="Ingresa tu DNI" />
+
+
+
+
+
+    <EditText
+        android:id="@+id/editTextNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Ingrese sus nombres completos" />
+
+
+    <EditText
+        android:id="@+id/editTextContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa la clave"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextConfirmarContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese nuevamente la clave"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:text="Registrar cuenta" />
+
+</LinearLayout>
